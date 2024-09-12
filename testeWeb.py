@@ -2,7 +2,7 @@ from machine import Pin
 import network
 import socket
 import time
-from seila import *
+from func import *
 
 # Configuração da rede Wi-Fi
 ssid = 'lab8'
