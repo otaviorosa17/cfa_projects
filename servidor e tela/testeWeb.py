@@ -5,9 +5,9 @@ import time
 from func import *
 
 # Configuração da rede Wi-Fi
-ssid = 'lab8'
-password = 'lab8arduino'
-
+ssid = 'SSID' # REDE
+password = 'PASSWORD' #SENHA
+ 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 wlan.connect(ssid, password)
